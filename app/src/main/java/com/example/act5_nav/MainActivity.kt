@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Act5_navTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) {
-                    DataApp(modifier = Modifier)
+                    DataApp(modifier = Modifier.padding(it))
                 }
             }
         }
