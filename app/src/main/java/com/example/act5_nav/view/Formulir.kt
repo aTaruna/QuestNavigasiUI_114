@@ -56,10 +56,7 @@ fun FormIsian(
                 label = {Text(text = "Nama Lengkap")},
                 onValueChange = {},
             )
-            HorizontalDivider(modifier = Modifier
-                .padding(top = 20.dp)
-                .width(250.dp),
-                thickness = Thickness,color = Color.Red)
+
             Row {
                 jenisK.forEach {
                     item->
@@ -72,11 +69,7 @@ fun FormIsian(
                     }
                 }
             }
-            HorizontalDivider(modifier = Modifier
-                //.padding(top = 20.dp)
-                .width(250.dp),
-                thickness = 1.dp,
-                color = Color.Red)
+
             OutlinedTextField(
                 value = "",
                 singleLine = true,
