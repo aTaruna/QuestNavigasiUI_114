@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Act5_nav</string>
     <string name="submit">Submit</string>
-    <string name="back">Back</string>
+    <string name="back">Kembali</string>
     <string name="nama_lengkap">Nama Lengkap</string>
     <string name="jenke">Jenis Kelamin</string>
     <string name="alamat">Alamat</string>
